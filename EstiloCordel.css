@@ -1,0 +1,83 @@
+@charset "UTF-8"; 
+@font-face {
+    font-family: Comic;
+    src: url('Fontes/Comic.ttf');
+}
+@font-face {
+    font-family: Passion;
+    src: url('Fontes/PassionOne.ttf');
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html , body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: Passion;
+    font-size: 10vw;
+}
+header > p {
+    padding-bottom: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+} 
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Comic;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3.7vw;
+}
+.normal {
+    background-color: white;
+    color: black;
+}
+.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.733);
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    background-attachment: fixed;
+}
+.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+}
+
+
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
